@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-h3-probe"
+description = "Look inside MiniMax-H3 runs in ComfyUI: video metrics, per-block / per-token LoRA probes, overlays."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = ["numpy"]
+
+[project.urls]
+Repository = "https://github.com/matlowai/ComfyUI-H3-Probe"
+
+[tool.comfy]
+PublisherId = "matlowai"
+DisplayName = "H3 Probe"
